@@ -1,0 +1,8 @@
+prefix=/home/nayab/project_ws/install
+
+Name: sensor_transform
+Description: Description of sensor_transform
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

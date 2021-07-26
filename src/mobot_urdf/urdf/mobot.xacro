@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot
+     xmlns:xacro="http://www.ros.org/wiki/xacro" name="mobot">
+    <xacro:include filename="$(find mobot_urdf)/urdf/mobot_xacro_defs.xacro" />
+    <xacro:include filename="$(find mobot_urdf)/urdf/mobot_static_links.xacro" />
+    <xacro:include filename="$(find mobot_urdf)/urdf/mobot_wheels.xacro" />
+    <xacro:include filename="$(find mobot_urdf)/urdf/casters.xacro" />
+    <xacro:include filename="$(find mobot_urdf)/urdf/gazebo_tags.xacro" />
+
+    <gazebo reference= "left_wheel">
+      <mu1>100000.0 </mu1>
+      <mu2 >100000.0 </mu2>
+      <material>Gazebo/Black</material>
+    </gazebo>
+      <gazebo reference= "right_wheel">
+        <mu1>100000.0 </mu1>
+        <mu2 >100000.0 </mu2>
+        <material>Gazebo/Black</material>
+      </gazebo>
+</robot>

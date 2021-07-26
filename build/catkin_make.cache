@@ -1,0 +1,2 @@
+mobot_urdf:sensor_transform
+-DCATKIN_DEVEL_PREFIX=/home/nayab/project_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nayab/project_ws/install -G Unix Makefiles
